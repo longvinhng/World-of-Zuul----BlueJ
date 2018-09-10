@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ TransporterRoom\ class\ is\ an\ extension\ of\ the\ Room\ class.\r\n\ It\ is\ used\ to\ build\ special\ room\ that\ transport\ the\ player\ to\ a\ random\ room.\r\n\r\n\ @author\ Cara\ Tang\ and\ Long\ Vinh\ Nguyen\r\n\ @version\ 2018.02.27\r\n\r\n\r\n\ Moved\ code\ from\ Game.createRooms\ to\ Scenario\ default\ constructor\ to\ create\ game\ scenario\r\n\ Added\ Transporter\ Room\ into\ the\ scenario\r\n\ Added\ Shopping\ Mall\ up\ exit\ to\ go\ to\ Transporter\ Room\r\n\ Added\ Transporter\ Room\ down\ exit\ to\ go\ to\ Shopping\ Mall\r\n\ Created\ getStartRoom\ method\ to\ return\ the\ starting\ room\r\n\ Create\ getRandomRoom\ method\ to\ return\ a\ random\ room\r\n\r\n
+comment1.params=description
+comment1.target=TransporterRoom(java.lang.String)
+comment1.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n\r\n\ @param\ description\ The\ room's\ description.\r\n
+comment2.params=direction
+comment2.target=Room\ getExit(java.lang.String)
+comment2.text=\r\n\ Return\ a\ random\ room,\ independent\ of\ the\ direction\r\n\r\n\ parameter\r\n\r\n\ @param\ direction\ Ignored\r\n\ @return\ A\ random\ Room\r\n
+comment3.params=
+comment3.target=Room\ findRandomRoom()
+comment3.text=\r\n\ Choose\ a\ random\ rom\r\n\ @return\ A\ random\ room\r\n\r\n
+numComments=4

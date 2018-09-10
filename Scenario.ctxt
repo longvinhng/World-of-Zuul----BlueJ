@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Scenario
+comment0.text=\r\n\ Represents\ a\ game\ scenario\ including\ connected\ rooms\ and\ items\r\n\ \r\n\ @author\ Cara\ Tang\ and\ Long\ Vinh\ Nguyen\r\n\ @version\ 2018.02.27\r\n\r\n\r\n
+comment1.params=
+comment1.target=Scenario()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Scenario\r\n
+comment2.params=
+comment2.target=Room\ getStartRoom()
+comment2.text=\r\n\ @return\ \ the\ start\ room\ for\ this\ scenario\r\n
+comment3.params=
+comment3.target=Room\ getRandomRoom()
+comment3.text=\r\n\ @return\ \ a\ random\ room\ from\ this\ scenario\r\n
+numComments=4
